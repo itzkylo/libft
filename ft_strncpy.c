@@ -6,11 +6,11 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 13:05:07 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/22 13:23:14 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/05/22 13:43:08 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft"
+#include "libft.h"
 
 char	*ft_strncpy(char *s1, char *s2, size_t n)
 {
@@ -22,10 +22,6 @@ char	*ft_strncpy(char *s1, char *s2, size_t n)
 		s1[i] = s2[i];
 		i++;
 	}
-	while (i < n)
-	{
-		s1[i] = '\0';
-		i++;
-	}
+	s1[i] = '\0';
 	return (s1);
 }

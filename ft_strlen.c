@@ -6,11 +6,11 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 12:34:38 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/22 12:36:23 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/05/22 13:56:32 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft"
+#include "libft.h"
 
 int		ft_strlen(char *str)
 {

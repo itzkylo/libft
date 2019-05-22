@@ -6,11 +6,11 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 14:32:35 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/21 14:40:58 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/05/22 13:51:31 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft"
+#include "libft.h"
 
 int		ft_atoi(char *str)
 {

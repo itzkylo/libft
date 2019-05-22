@@ -6,11 +6,11 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 12:39:05 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/22 13:13:39 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/05/22 13:55:57 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft"
+#include "libft.h"
 
 char	*ft_strcpy(char *s1, char *s2)
 {
