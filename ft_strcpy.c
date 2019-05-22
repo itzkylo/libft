@@ -6,13 +6,13 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 12:39:05 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/22 13:03:29 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/05/22 13:13:39 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft"
 
-int		ft_strcpy(char *s1, char *s2)
+char	*ft_strcpy(char *s1, char *s2)
 {
 	int	i;
 
