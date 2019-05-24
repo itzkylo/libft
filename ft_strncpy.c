@@ -6,13 +6,13 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 13:05:07 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/22 13:43:08 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/05/24 10:50:50 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strncpy(char *s1, char *s2, size_t n)
+char	*ft_strncpy(char *s1, const char *s2, size_t n)
 {
 	size_t i;
 
