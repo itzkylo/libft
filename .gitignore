@@ -1,3 +1,7 @@
 .DS_store
 *.swp
 *.swo
+*.o
+*.a
+a.out
+utils
