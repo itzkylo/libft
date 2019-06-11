@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/24 10:52:50 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/24 12:39:17 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/06/11 09:28:57 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strstr(const char *s1, const char *s2)
 	unsigned int	j;
 
 	i = 0;
-	if (s1[0] -- '\0' && s2[0] == '\0')
+	if (s1[0] == '\0' && s2[0] == '\0')
 		return ((char *)s1);
 	while (s1[i] != '\0')
 	{

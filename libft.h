@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/10 10:29:11 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/06/10 14:02:53 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/06/11 14:20:18 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,7 @@ char			*ft_strchr(const char *s, int c);
 char			*ft_strrchr(const char *s, int c);
 char			*ft_strstr(const char *s1, const char *s2);
 int			ft_strcmp(const char *s1, const char *s2);
-int			*ft_strncmp(const char *s1, const char *s2, size_t n);
+int			ft_strncmp(const char *s1, const char *s2, size_t n);
 int			ft_atoi(const char *str);
 int			ft_isalpha(int c);
 int			ft_isdigit(int c);
@@ -60,11 +60,9 @@ void			ft_striter(char *s, void (*f)(char *));
 char			*ft_strmap(char const *s, char (*f)(char));
 char			*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 int			ft_strequ(char const *s1, char const *s2);
-int			ft_strnequ(char const *s1, char const *s2);
+int			ft_strnequ(char const *s1, char const *s2, size_t n);
 char			*ft_strsub(char const *s, unsigned int start, size_t len);
 char			*ft_strjoin(char const *s1, char const *s2);
-static int		ft_cntwrd(char const *s, char c);
-static char		*ft_strndup(const char *s, size_t n);
 char			**ft_strsplit(char const *s, char c);
 char			*ft_strtrim(char const *s);
 char			*ft_itoa(int n);
@@ -74,7 +72,7 @@ void			ft_putnbr(int n);
 void			ft_putchar_fd(char c, int fd);
 void			ft_putstr_fd(char const *s, int fd);
 void			ft_putendl_fd(char const *s, int fd);
-void			ft_putnbr_fd(int n, int fd);ft_putnbr_fd(int n, int fd);
+void			ft_putnbr_fd(int n, int fd);
 t_list			*ft_lstnew(void const *content, size_t content_size);
 void			ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
 void			ft_lstdel(t_list **alst, void (*del)(void *, size_t));

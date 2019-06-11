@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 14:32:35 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/24 10:46:09 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/06/11 08:47:05 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int		ft_atoi(const char *str)
 {
 	int	neg;
-	int	1;
+	int	i;
 	int	num;
 
 	i = 0;

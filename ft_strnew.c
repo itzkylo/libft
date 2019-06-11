@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/27 11:42:14 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/27 11:44:14 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/06/11 14:23:25 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 char	*ft_strnew(size_t size)
 {
-	return ((char *)ft_memalloc(size + 1));
+	return ((char *)malloc(size + 1));
 }
