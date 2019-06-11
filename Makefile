@@ -6,7 +6,7 @@
 #    By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/04 12:15:56 by kjohnsto          #+#    #+#              #
-#    Updated: 2019/06/11 14:27:33 by kjohnsto         ###   ########.fr        #
+#    Updated: 2019/06/11 14:42:44 by kjohnsto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -85,6 +85,7 @@ clean:
 fclean: clean
 	@rm -f $(OBJ)
 	@echo "$(NAME) deleted"
+	@rm -f $(NAME)
 
 re: fclean all
 
