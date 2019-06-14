@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/24 13:04:09 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/06/11 08:28:53 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/06/13 10:31:25 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int		ft_strcmp(const char *s1, const char *s2)
 		{
 			return (s1[i] - s2[i]);
 		}
-		i++;		
+		i++;
 	}
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/29 10:19:08 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/06/11 14:15:21 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/06/13 10:24:55 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ char	*ft_strtrim(char const *s)
 		return (NULL);
 	while (k < j - i + 1)
 	{
-		str[k] = s[i +k];
+		str[k] = s[i + k];
 		k++;
 	}
 	str[k] = '\0';

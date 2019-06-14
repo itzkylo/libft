@@ -6,7 +6,7 @@
 #    By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/04 12:15:56 by kjohnsto          #+#    #+#              #
-#    Updated: 2019/06/11 14:42:44 by kjohnsto         ###   ########.fr        #
+#    Updated: 2019/06/14 10:32:22 by kjohnsto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,7 @@ SRC = ft_itoa.c \
 	  ft_strlen.c \
 	  ft_strrchr.c \
 	  ft_memalloc.c \
+	  ft_memcmp.c \
 	  ft_putendl.c \
 	  ft_strcpy.c \
 	  ft_strmap.c \
