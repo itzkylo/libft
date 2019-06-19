@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/24 14:09:57 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/24 14:19:50 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/06/19 06:53:39 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,5 +28,5 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	}
 	if (i != dstsize)
 		dst[i + j] = '\0';
-	return (j + ft_strlen(src));
+	return (i + ft_strlen(src));
 }

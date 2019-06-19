@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/27 13:30:16 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/27 13:37:45 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/06/19 09:31:29 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,8 @@
 
 int		ft_strequ(char const *s1, char const *s2)
 {
-	return (ft_strcmp(s1, s2) ? 0 : 1);
+	if (s1 == s2)
+		return (1);
+	else
+		return (0);
 }

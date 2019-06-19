@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/27 13:00:18 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/27 13:02:56 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/06/19 09:11:09 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ void	ft_strclr(char *s)
 	unsigned int	i;
 
 	i = 0;
+	if (s == NULL)
+		return ;
 	while (s[i] != '\0')
 	{
 		s[i] = '\0';
