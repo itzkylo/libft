@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/29 13:44:24 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/05/29 13:46:05 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/06/20 09:12:03 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 
 void	ft_putstr_fd(char const *s, int fd)
 {
+	if (!s)
+		return ;
 	write(fd, s, ft_strlen(s));
 }

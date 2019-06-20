@@ -6,7 +6,7 @@
 #    By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/04 12:15:56 by kjohnsto          #+#    #+#              #
-#    Updated: 2019/06/14 10:32:22 by kjohnsto         ###   ########.fr        #
+#    Updated: 2019/06/20 09:13:34 by kjohnsto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -65,6 +65,7 @@ SRC = ft_itoa.c \
 	  ft_strclr.c \
 	  ft_strlcat.c \
 	  ft_strnstr.c \
+	  ft_putendl_fd.c \
 
 OBJ = $(SRC:.c=.o)
 

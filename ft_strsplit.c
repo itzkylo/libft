@@ -6,7 +6,7 @@
 /*   By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/29 12:52:38 by kjohnsto          #+#    #+#             */
-/*   Updated: 2019/06/13 10:00:35 by kjohnsto         ###   ########.fr       */
+/*   Updated: 2019/06/20 13:22:29 by kjohnsto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,8 +52,7 @@ char		**ft_strsplit(char const *s, char c)
 
 	i = 0;
 	k = 0;
-	tab = (char **)malloc(sizeof(char *) * (ft_cntwrd(s, c)) + 1);
-	if (tab == NULL)
+	if (!(tab = (char **)malloc(sizeof(char *) * (ft_cntwrd(s, c)) + 1)))
 		return (NULL);
 	while (s[i])
 	{
