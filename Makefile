@@ -6,7 +6,7 @@
 #    By: kjohnsto <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/06/04 12:15:56 by kjohnsto          #+#    #+#              #
-#    Updated: 2019/06/20 09:13:34 by kjohnsto         ###   ########.fr        #
+#    Updated: 2019/07/03 06:39:11 by kjohnsto         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -91,4 +91,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all, clean, fclean re
+.PHONY: all, clean, fclean, re
